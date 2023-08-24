@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/esm/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["DOM", "ES2022"],
+    "target": "es2022",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "declaration": true,
+    "moduleResolution": "nodenext",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./lib/"],
+  "exclude": ["./lib/*.test.js"]
+}
