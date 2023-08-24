@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.4 (2023-08-24)
+
+
+### Features
+
+* feature complete 🎉 ([d1468b8](https://github.com/weiran-zsd/jsonbn/commit/d1468b837e17bbb7bf6181dd3aec6d4e3edb4b7b))
+
 ### [0.0.3](https://git.dian.so/weiren/safe-json-parser/compare/v0.0.2...v0.0.3) (2023-08-21)
 
 
