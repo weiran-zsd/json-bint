@@ -1,0 +1,61 @@
+{
+  "name": "jsonbn",
+  "version": "0.0.3",
+  "private": false,
+  "description": "json with bigint supports.",
+  "keywords": [
+    "json",
+    "bigint",
+    "bignumber"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiran-zsd/jsonbn"
+  },
+  "license": "MIT",
+  "author": "唯然<weiran.zsd@outlook.com",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/jsonb.js",
+      "require": "./lib/jsonb.cjs",
+      "types": "./lib/jsonb.d.ts"
+    }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib",
+    "!**/*.test.{js,ts}"
+  ],
+  "scripts": {
+    "lint": "eslint lib",
+    "prepare": "husky install",
+    "prettier": "prettier -w lib",
+    "release": "npm test && standard-version",
+    "test": "node --test",
+    "test:cov": "node --test --experimental-test-coverage",
+    "test:watch": "node --test --watch ./**/*.test.js"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@ton.js/json-parser": "0.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.47.0",
+    "@tsconfig/esm": "^1.0.4",
+    "eslint": "^8.3.0",
+    "eslint-plugin-n": "^16.0.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.3.2",
+    "standard-version": "^9.3.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
