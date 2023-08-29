@@ -1,12 +1,14 @@
 {
   "extends": "@tsconfig/esm/tsconfig.json",
   "compilerOptions": {
+    "outDir": "./dist",
     "lib": ["DOM", "ES2022"],
     "target": "es2022",
     "allowJs": true,
     "checkJs": true,
     "noEmit": true,
     "declaration": true,
+    "module": "node16",
     "moduleResolution": "nodenext",
     "allowSyntheticDefaultImports": true
   },

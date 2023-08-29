@@ -20,6 +20,11 @@
       "import": "./lib/jsonb.js",
       "require": "./lib/jsonb.cjs",
       "types": "./lib/jsonb.d.ts"
+    },
+    "./axios": {
+      "import": "./lib/axios.js",
+      "require": "./lib/axios.cjs",
+      "types": "./lib/axios.d.ts"
     }
   },
   "files": [
