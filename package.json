@@ -14,15 +14,13 @@
   },
   "license": "MIT",
   "author": "唯然<weiran.zsd@outlook.com",
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     ".": {
-      "import": "./lib/jsonb.js",
       "require": "./lib/jsonb.cjs",
       "types": "./lib/jsonb.d.ts"
     },
     "./axios": {
-      "import": "./lib/axios.js",
       "require": "./lib/axios.cjs",
       "types": "./lib/axios.d.ts"
     }
@@ -31,7 +29,7 @@
     "LICENSE",
     "README.md",
     "lib",
-    "!**/*.test.{js,ts}"
+    "!**/*.test.{mjs,js,ts}"
   ],
   "scripts": {
     "lint": "eslint lib",
@@ -52,6 +50,7 @@
   "devDependencies": {
     "@eslint/js": "^8.48.0",
     "@tsconfig/esm": "^1.0.4",
+    "@types/node": "^20.5.7",
     "eslint": "^8.48.0",
     "eslint-plugin-n": "^16.0.2",
     "husky": "^8.0.3",
