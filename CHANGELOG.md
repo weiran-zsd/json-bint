@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/weiran-zsd/json-bint/compare/v0.0.6...v0.0.7) (2023-08-31)
+
+### Bug Fixes
+
+- parse() typings ([7bb0f8f](https://github.com/weiran-zsd/json-bint/commit/7bb0f8f73ba6f800092d47757a54630e86b6e0c5))
+
 ### [0.0.6](https://github.com/weiran-zsd/jsonbn/compare/v0.0.5...v0.0.6) (2023-08-29)
 
 ### Features
