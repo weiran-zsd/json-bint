@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/weiran-zsd/json-bint/compare/v0.0.7...v0.0.8) (2023-08-31)
+
+### Bug Fixes
+
+- rm esm ([021728a](https://github.com/weiran-zsd/json-bint/commit/021728ab5a4cda29436130d0b5c204b8da113404))
+
 ### [0.0.7](https://github.com/weiran-zsd/json-bint/compare/v0.0.6...v0.0.7) (2023-08-31)
 
 ### Bug Fixes
